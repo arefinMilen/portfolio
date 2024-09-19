@@ -155,7 +155,7 @@ a{
     display: table;
 }
 h2{
-   front: size 1.2rem;
+   font-size: 1.2rem;
    text-align: center;
 
 }
@@ -464,10 +464,10 @@ to{
     color: gray;
 }
 
-footer-desc
+/* footer-desc
 {
   
-}
+} */
 .footer::after{
     clear: both;
     content: '';
@@ -475,3 +475,20 @@ footer-desc
 }
 
 /* footer end here */
+
+
+/* preloader starts here */
+
+#preloader
+{
+    background: #14163c url(photos/preloader1.gif) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-size: 100%;
+
+}
+
+
+/* preloader ends here */
