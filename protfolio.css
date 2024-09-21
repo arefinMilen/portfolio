@@ -205,6 +205,88 @@ h2{
 }
   /* about me end here */
 
+
+
+/* work start here  */
+#portfolio
+{
+    padding: 50px 0;
+}
+
+.work-list
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin: 10px;
+}
+
+.work{
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+
+}
+.work img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.5s;
+
+}
+.layer
+{
+    height: 0;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,.6),#ff00f4);
+    color: white;
+    border-radius: 10px;
+     position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s ;
+
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #ff00f4;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 60px;
+    background: white;
+    border-radius:50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+   
+}
+
+.work:hover img{
+transform:scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+/* work ends here  */
+
+
   /* skill start */
 .skill-card
 {
