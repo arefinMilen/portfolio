@@ -300,11 +300,13 @@ transform:scale(1.1);
     padding: 1% 0%;
 }
 .skill-card .card{
-    background-color: gray;
+    background-image: linear-gradient(135deg,#6666ff,
+    #00b3b3);
     padding: 10px;
     border-radius: 5px;
     height: 700px;
     transition: .3s;
+    color: white;
 }
 
 .card:hover
@@ -350,6 +352,7 @@ transform:scale(1.1);
 }
 .skill-container{
     padding-right: 45px;
+    
 }
 .skill-container li{
     list-style: none;
